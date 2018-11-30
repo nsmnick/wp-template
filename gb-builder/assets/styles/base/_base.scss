@@ -1,0 +1,66 @@
+
+html {
+	box-sizing: border-box;
+	font-size: $font-size-mobile;
+	font-family: $font-family;
+	line-height: $line-height;
+	min-height: 100%;
+	height: 100%;
+	color: color('dark');
+
+	@include bp(lap) {
+		font-size: $font-size;
+	}
+}
+
+* {
+	&,
+	&::before,
+	&::after {
+		box-sizing: inherit;
+	}
+}
+
+body {
+	margin: 0;
+	padding: $menu-height 0 0;
+	height: 100%;
+	background-color: color('dark');
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: color('accent');
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background-color: color('ui');
+	margin: 40px 0;
+	clear: both;
+
+	&.-small {
+		width: 20%;
+		margin: 40px auto;
+	}
+}
+
+@import 'headings';

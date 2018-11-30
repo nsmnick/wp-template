@@ -1,0 +1,16 @@
+
+.sidebar {
+	width: 20%;
+
+	&.-right {
+		float: right;
+	}
+
+	&.-left {
+		float: left;
+	}
+}
+
+.widget {
+	margin-bottom: 30px;
+}

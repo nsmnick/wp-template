@@ -1,0 +1,33 @@
+
+.page-header {
+	background: color('white');
+	z-index: 999;
+	padding: 20px 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: $menu-height;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
+
+	.container {
+		padding: 0 20px;
+	}
+
+	&.menu-visible {
+		.page-nav {
+			display: block;
+		}
+	}
+}
+
+.logo {
+	float: left;
+	display: block;
+	width: 160px;
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+}

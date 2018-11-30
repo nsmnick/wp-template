@@ -1,0 +1,25 @@
+{
+  "name": "",
+  "repository": {
+    "type": "git"
+  },
+  "devDependencies": {
+    "autoprefixer": "*",
+    "css-mqpacker": "*",
+    "cssnano": "*",
+    "gulp": "*",
+    "gulp-concat": "*",
+    "gulp-cssnano": "*",
+    "gulp-imagemin": "*",
+    "gulp-livereload": "*",
+    "gulp-notify": "*",
+    "gulp-plumber": "*",
+    "gulp-postcss": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "*",
+    "gulp-sass-lint": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-uglify": "*"
+  },
+  "private": true
+}
